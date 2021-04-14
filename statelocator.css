@@ -1,0 +1,49 @@
+body{
+		/*background-color: 	#00FFFF;*/
+		color: #222;
+		margin: 0;
+	}
+
+	.state-body{
+		background-size: 100% 768px;
+		width: 100%;
+		height: 768px;
+		position: relative;
+		background-image: url('images/nigeria.jpg');
+	}
+
+	.state-body-overlay{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.state-heading{
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	select: focus{
+		outline: none;
+	}
+	select{
+		border: 0;
+		border-bottom: 2px solid rgba(0, 200, 0, 0.5);
+		outline: none;
+		max-width: 100%;
+		width: 500px;
+		height: 50px;
+		margin-bottom: 20px;
+		background-color: transparent;
+		border-radius: 10px;
+		box-sizing: border-box;
+		padding: 0 10px;
+		color: #60e876;
+
+		/*box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);*/
+	}
+
+	.hide{
+		display: none;
+	}
