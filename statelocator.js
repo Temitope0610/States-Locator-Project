@@ -1062,7 +1062,6 @@ var picByState ={
 	function reset() {
 		document.getElementById("stateSelect").selectedIndex = 0;
 		document.getElementById("lgaSelect").selectedIndex = 0;
-		// document.body.style.backgroundColor = "orange";
 
 	}
 
